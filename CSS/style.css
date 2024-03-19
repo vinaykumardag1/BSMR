@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+  font-family:'Inter';
+}
+:root{
+  --blue:#1A3261;
+  --red:#F10C0C;
+  --white:#ffff;
+}
+.nav-section{
+  border-top: 10px solid var(--blue);
+}
+.nav-top{
+  background-color: var(--blue);
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px;
+  color:var(--white);
+  clip-path:polygon(100% 0%,0 0, 5% 100%,100% 100%);
+  background-color: #1A3261;  
+}
+.navtop-details{
+  display: flex;
+  gap: 50px;
+}
+.navtop-details a{
+  color: var(--white);
+  text-decoration: none;
+  font-size: 16px;
+}
+.navtop-details span{
+  font-size:16px;
+}
+.social-media-icons li{
+  margin-left: 10px;
+}
+.nav-link{
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+.book-btn{
+  background-color:var(--red);
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  color:var(--white);
+  font-size: 24px;
+  clip-path: polygon(10% 0%,100% 0%,100% 100%,0 100%)
+}
+
+.navbar-section{
+  border-bottom: 1px solid var(--red);
+  /* position:sticky;
+  top: 0; */
+  background-color: var(--white);
+  z-index: 3;
+  
+}
+.navbar-inline{
+ padding-inline-start: 76px;
+}
+.navbar .navbar-nav{
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-inline-start: 30px;
+}
+.navbar-brand img{
+  position: relative;
+  bottom: 14px;
+}
+/*  */
+.banner-section{
+  background-image: url('/images/banner-image.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  color:var(--white); 
+}
+.media-banner{
+  background-color: #333030 !important;
+  color: var(--white);
+  
+}
+.banner{
+  padding:100px  0px 300px 0px;  
+}
+.banner h1{
+  font-size:48px;
+
+  margin: 20px 0px;
+}
+.banner p{
+  font-size: 22px;
+  margin: 20px 0px;
+}
+.banner button{
+  background-color: #275CC3;
+  padding: 10px 40px; 
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  color: var(--white);
+}
+
+/*  */
+.services-section{
+  background-color: #1B2D33;
+  padding: 30px 0px;
+}
+.services{
+  padding: 20px 0px;
+}
+.services-section .services:nth-child(2){
+  padding-top: 0;
+}
+.services li{
+  padding: 10px 0px;
+  color: var(--white);
+}
+.services h2{
+  color: #FFF2F2;
+  font-size: 24px;
+  margin: 0;
+}
+.clock img{
+  height: 80px !important;
+}
+
+/*  */
+.whychooseus-section{
+  padding: 60px 0px;
+}
+.top-header{
+  text-align: center;
+  width: 100%;
+  padding: 20px 0px 50px 0px;
+}
+.top-header p{
+  color: #5e5e5e;
+}
+.icon-background{
+  height: 80px;
+  width: 82px;
+  background-color: #F25151;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+}
+.features{
+  display: flex;
+  gap: 30px;
+}
+.car-image{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.features-data{
+  font-size: 16px;
+}
+.features-align{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  */
+.background-image{
+  background-image:url('/images/BLUE\ WALL.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.media-background-image{
+   background-color: #293540a9;
+}
+.background-data{
+  padding:50px  0px 400px 0px;  
+}
+.background-data h3{
+  color: var(--white);
+  padding: 0px 0px;
+  font-size: 48px;
+  font-weight: bold;
+}
+.background-data p{
+  font-size:16px;
+  color: var(--white);
+  padding: 10px 0px 10px 0px;
+}
+.background-data button{
+  background-color: #FD0000;
+  color: var(--white);
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+.backgroundlinear{
+  background: rgba(0, 0, 0, 0.2);
+}
+/* about-us-section */
+.aboutus-section{
+  background-image: url('/images/about-background-image.png');
+  padding: 50px 0px;
+  background-color: #17272C;
+}
+.about-img{
+  position: relative;
+  z-index: 2;
+}
+.about-img img{
+  position:absolute;
+  height: 650px;
+  width: auto;
+
+}
+
+.aboutus-data{
+  color: var(--white);
+  text-align: center;
+  padding-top: 50px;
+}
+.aboutus-data p{
+  font-size: 18px;
+}
+
+.skleton-car-image{
+  display: flex;
+}
+/*  */
+.wedomore-head{
+  text-align: center;
+}
+
+.wedomore-data{
+  text-align: center;
+  flex-direction: column;
+  font-size: 16px;
+}
+.wedomore-data h4{
+  padding: 20px 0px;
+}
+/*  */
+
+.sealmeless{
+  color: var(--white);
+  display: flex;
+  text-align: center;
+  justify-content:end;
+  padding-top: 20px;
+}
+.seamless-sec{
+  text-align: end;
+  background-image: url('/images/new.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.seamless-media{
+  background-color: #333030;
+}
+
+.explore-btn button{
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  color: var(--white);
+  padding: 20px;
+}
+.explore-button button{
+  text-decoration: none;
+  border: none;
+  color: var(--white);
+  padding: 20px;
+  background-color: #17272C;
+  border-radius:20px ;
+}
+/*  */
+.Contactus{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.map-image{
+  text-align: center;
+  position: relative;
+}
+.map-image img{
+  width: 100%;
+  
+}
+.car-rental p{
+  background-color: #FFB800;
+  padding: 20px 50px;
+  position: absolute;
+  top: 53px;
+  left: 39%;
+} 
+.car-rental .traingle{
+  background-color: #FFB800;
+  clip-path: polygon(100% 0%, 100% 100%, 0% 100%); 
+  left: 50%;
+  height: 60px;
+  width: 60px;
+  top: 106px;
+  transform: rotate(45deg);
+  position: absolute;
+}
+/*  */
+.footer-section{
+  background-color: #17272C;
+}
+.footer-section .row{
+  color:var(--white);
+  padding: 50px 0px;
+}
+.footer-data li{
+  margin: 10px 0px;
+  font-size: 14px;
+}
+.footer-para{
+  font-size: 12px;
+}
+.footer-section .explore{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons{
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+.footer-data a{
+  color: var(--white);
+}
+.footer-data .tele{
+  text-decoration: none;
+}

@@ -1,0 +1,165 @@
+:root{
+    --font-size:10px;
+}
+@media screen and (max-width:1200px) {
+    .renugunta,.chennai-air{
+        height: auto;
+    }
+
+}
+@media screen and (max-width:991px) {
+    .nav-top{
+        clip-path: none;
+    }
+    .navbar-brand img{
+        position: relative;
+        bottom: 0;
+    }
+    .navtop-details{
+        gap: 10px;
+        
+    }
+    .book-btn{
+        clip-path: none;
+        border-radius: 10px;
+    }
+    .navbar-inline{
+        padding-inline-start: 0;
+    }
+    .social-media-icons{
+        margin: 0;
+    }
+    .navbar-brand img{
+        position: static;
+    }
+    .about-img img{
+        height: auto;
+        position: static;
+        
+    }
+    .about-img{
+        position: static;
+    }
+    .features-align{
+        justify-content: none;
+        flex-direction: column;
+        
+    }
+    .features{
+        display:block;
+    }
+    .background-image{
+        background-image: none;
+    }
+    .background-data{
+        padding:30px  0px 30px 0px; 
+    }
+    .backgroundlinear{
+        background:#010101;;
+    }
+    .sealmeless{
+        padding: 20px 0px;
+        font-size: var(--font-size);
+    }
+    .car-rental p{
+        left: 30%;
+        padding: 20px 20px;
+    }
+    .footer-section .explore{
+        justify-content: start;
+    }
+    /* pickuppoints-section */
+    .banner-head h1{
+        font-size: 26px;
+
+    }
+    .banner-head p{
+        font-size: 12px;
+    }
+    .banner-head img{
+        top: 70px;
+    }
+    
+    /*  */
+    .renugunta,.chennai-air,.kanipakam{
+        height: auto;
+    }
+    .banner-head img{
+        transform: scale(1.2,1.2);
+    }
+    
+    /* tariff */
+    .card-head{
+        padding-top:10px;
+        padding-inline-start: 10px;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .social-media-icons li{
+        margin-left: 7px;
+    }
+
+    .social-media-icons li img,
+    .navtop-details li img{
+        height: 14px;
+        width: 12px;
+    }
+    .social-media-icons{
+        padding-left: 0;
+    }
+    .navtop-details{
+        gap: 3px;
+        padding: 0;
+    }
+    .navtop-details li a,.navtop-details li span{
+        font-size:var(--font-size);
+    }
+    .banner h1{
+        font-size: 22px;
+    }
+    .banner p{
+        font-size: 16px;
+    }
+    .navtop-details li .telephone{
+        color: var(--white);
+        text-decoration: none;
+        font-size: var(--font-size);
+      }
+    .car-rental p{
+        font-size: 16px;
+        padding: 10px 2px;
+    }
+    .car-rental .traingle{
+        top: 80px;
+        height: 30px;
+        width: 30px;
+        left: 45%;
+    }
+    .navbar-brand img{
+        height: 50px !important;
+    }
+    .chennai{
+        height: auto;
+    }
+    .card-body li{
+        font-size: var(--font-size);
+    }
+    .features-data{
+        font-size: var(--font-size);
+    }
+    .background-data h3{
+        font-size: 22px;
+    }
+    .background-data p{
+        font-size: 12px;
+    }
+    .aboutus-data p{
+        font-size: var(--font-size);
+    }
+    .wedomore-data{
+        font-size: var(--font-size);
+    }
+    
+}
